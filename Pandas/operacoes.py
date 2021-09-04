@@ -45,9 +45,9 @@ df2 = pd.DataFrame(data)
 
 print(df2)
 print('-' * 40)
-print(df2.pivot_table(values='D', index='A', columns='C'))
+print(df2.pivot_table(values='D', index='A', columns='C'))  # Re-ordena o df, indicando os dados, linhas e colunas
 
-print(df2.head())
+print(df2.head())  # Exibe os 5 primeiros índices ou x caso especificado
 
 
 
